@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="conducting-1b0d32">
+ <names>
+  <name lang="en_US">Conducting</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Make the robot conduct an orchestra</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="conducting">
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Conduct</name>
+   </names>
+   <descriptions>
+    <description lang="en_US">Make the robot conduct the orchestra</description>
+   </descriptions>
+   <autonomous>
+    <condition purpose="launchTrigger"><![CDATA[MiddleTactilTouched]]></condition>
+   </autonomous>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>
