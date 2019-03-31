@@ -7,8 +7,7 @@
     <Dialogs>
         <Dialog name="ExampleDialog" src="conducting/ExampleDialog/ExampleDialog.dlg" />
     </Dialogs>
-    <Resources>
-    </Resources>
+    <Resources />
     <Topics>
         <Topic name="ExampleDialog_enu" src="conducting/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
     </Topics>
