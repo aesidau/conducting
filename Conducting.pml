@@ -11,5 +11,7 @@
     <Topics>
         <Topic name="ExampleDialog_enu" src="conducting/ExampleDialog/ExampleDialog_enu.top" topicName="ExampleDialog" language="en_US" />
     </Topics>
-    <IgnoredPaths />
+    <IgnoredPaths>
+        <Path src="README.md" />
+    </IgnoredPaths>
 </Package>
